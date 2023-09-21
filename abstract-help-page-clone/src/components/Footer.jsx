@@ -4,9 +4,7 @@ import logo from "./min-logo.svg";
 export default function Footer() {
   const footer = {
     Abstract: ["Start Trial", "Pricing", "Download"],
-
     Resources: ["Blog", "Help Center", "Release Notes", "Status"],
-
     Community: ["Twitter", "LinkedIn", "Facebook", "Dribbble", "Podcast"],
     Company: [
       "About Us",
