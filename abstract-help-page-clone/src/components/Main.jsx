@@ -46,14 +46,17 @@ export default function Main() {
             How can we help?
           </h1>
           <div className="relative w-full">
-            <input
-              type="search"
-              placeholder="Search"
-              className="w-full p-4 border-black border-[1px] rounded-md
-               hover:border-blue focus-visible:border-blue outline-none
-                transition-all ease-in-out text-2xl text-black"
-            />
-            <i className="bx bx-right-arrow-alt text-4xl absolute right-4 top-3"></i>
+            <form>
+              <input
+                type="search"
+                placeholder="Search"
+                className="w-full p-4 border-black border-[1px] rounded-md
+                 hover:border-blue focus-visible:border-blue outline-none
+                  transition-all ease-in-out text-2xl text-black"
+              />
+              <i className="bx bx-right-arrow-alt text-4xl absolute right-4 top-3"></i>
+              <input type="submit" value="" className="hidden" />
+            </form>
           </div>
         </div>
       </section>
