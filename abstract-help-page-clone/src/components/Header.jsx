@@ -11,6 +11,7 @@ export default function Header() {
      bg-black text-white text-xl font-[GT America Standard]"
     >
       <div className="flex flex-row items-center justify-between md:px-7 py-6 w-[97%] md:w-[90%] mx-auto">
+        {/* left side */}
         <div className="flex flex-row items-center gap-3">
           <a href="/">
             <img className="h-8 hover:opacity-80" src={Logo} alt="logo" />
@@ -22,11 +23,14 @@ export default function Header() {
             Help Center
           </a>
         </div>
+        {/* Right Side */}
         <div className="flex flex-row items-center xl:hidden cursor-pointer">
+          {/* Search Icon */}
           <i
             className="bx bx-search text-3xl font-bold text-white hover:scale-125 transition-all"
             onClick={() => setIsSearchOpen(true)}
           ></i>
+          {/* Menu icon */}
           {!isMenuOpen ? (
             <i
               className="bx bx-menu text-3xl font-bold text-white ml-3"
@@ -39,10 +43,11 @@ export default function Header() {
             ></i>
           )}
         </div>
+        {/* buttons for large screens */}
         <div
-          className={`max-xl:${
-            isMenuOpen ? "flex" : "hidden"
-          } max-xl:absolute max-xl:left-0 max-xl:-bottom-[10.6rem]
+          className={`${
+            isMenuOpen ? "max-xl:flex" : "max-xl:hidden"
+          } z-10 max-xl:absolute max-xl:left-0 max-xl:-bottom-[10.6rem]
            max-xl:bg-black max-xl:w-full max-xl:p-5 max-xl:flex-col max-xl:items-center transition-all`}
         >
           <button
@@ -59,19 +64,23 @@ export default function Header() {
             Sign in
           </button>
         </div>
+        {/* Search Bar */}
         <div
           className={`${
             isSearchOpen ? "" : "hidden"
           } absolute top-0 left-0 px-4 py-4 w-full bg-white`}
         >
           <div className="relative w-full flex justify-center items-center gap-2">
-            <input
-              type="search"
-              placeholder="Search"
-              className="w-full p-3 border-black border-[1px] rounded-md
-               hover:border-blue focus-visible:border-blue outline-none
-                transition-all ease-in-out text-xl text-black"
-            />
+            <form>
+              <input
+                type="search"
+                placeholder="Search"
+                className="w-full p-3 border-black border-[1px] rounded-md
+                 hover:border-blue focus-visible:border-blue outline-none
+                  transition-all ease-in-out text-xl text-black"
+              />
+              <input type="button" className="hidden" />
+            </form>
             <i
               className="bx bx-x text-black font-bold text-2xl cursor-pointer"
               onClick={() => setIsSearchOpen(false)}
