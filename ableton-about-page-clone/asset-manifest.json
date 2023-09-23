@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/frontend-practice/ableton-about-page-clone/static/css/main.57958d66.css",
+    "main.js": "/frontend-practice/ableton-about-page-clone/static/js/main.56f3536a.js",
+    "static/js/787.63171497.chunk.js": "/frontend-practice/ableton-about-page-clone/static/js/787.63171497.chunk.js",
+    "static/media/second.jpg": "/frontend-practice/ableton-about-page-clone/static/media/second.7d530072addf7c56fde1.jpg",
+    "static/media/hero-bg.jpg": "/frontend-practice/ableton-about-page-clone/static/media/hero-bg.6c672dbb21a243e9e95d.jpg",
+    "static/media/fifth-2.jpg": "/frontend-practice/ableton-about-page-clone/static/media/fifth-2.d780c143c2325fecbbec.jpg",
+    "static/media/third-3.jpg": "/frontend-practice/ableton-about-page-clone/static/media/third-3.5f6d4fc3e00be005f03b.jpg",
+    "static/media/third-2.jpg": "/frontend-practice/ableton-about-page-clone/static/media/third-2.fd193004facf79a8b0ae.jpg",
+    "static/media/first-right.jpg": "/frontend-practice/ableton-about-page-clone/static/media/first-right.f6a17e3b55c1508f8542.jpg",
+    "static/media/fourth.jpg": "/frontend-practice/ableton-about-page-clone/static/media/fourth.3a79614344a3495be7ae.jpg",
+    "static/media/third-1.jpg": "/frontend-practice/ableton-about-page-clone/static/media/third-1.767c32f024fda4568d06.jpg",
+    "static/media/first-left.jpg": "/frontend-practice/ableton-about-page-clone/static/media/first-left.f895f2d526da8c846f43.jpg",
+    "static/media/fifth-1.jpg": "/frontend-practice/ableton-about-page-clone/static/media/fifth-1.c25cb71e82f6ac3277e5.jpg",
+    "static/media/instagram.svg": "/frontend-practice/ableton-about-page-clone/static/media/instagram.f6b80afe96697d24bb904df7e5450d22.svg",
+    "index.html": "/frontend-practice/ableton-about-page-clone/index.html",
+    "static/media/twitter.svg": "/frontend-practice/ableton-about-page-clone/static/media/twitter.73bd49c4d38a1b66aad9f012a108221a.svg",
+    "static/media/facebook.svg": "/frontend-practice/ableton-about-page-clone/static/media/facebook.8dfd0fb88a78b00acc67ee514aff316a.svg",
+    "static/media/youtube.svg": "/frontend-practice/ableton-about-page-clone/static/media/youtube.91b694847185919bfe367a26de200b8c.svg",
+    "static/media/logo.svg": "/frontend-practice/ableton-about-page-clone/static/media/logo.76be0bb6f8403ecadea69c313a95ae65.svg",
+    "main.57958d66.css.map": "/frontend-practice/ableton-about-page-clone/static/css/main.57958d66.css.map",
+    "main.56f3536a.js.map": "/frontend-practice/ableton-about-page-clone/static/js/main.56f3536a.js.map",
+    "787.63171497.chunk.js.map": "/frontend-practice/ableton-about-page-clone/static/js/787.63171497.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57958d66.css",
+    "static/js/main.56f3536a.js"
+  ]
+}

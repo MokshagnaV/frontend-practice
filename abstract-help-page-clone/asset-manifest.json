@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-practice/abstract-help-page-clone/static/css/main.ec9db375.css",
-    "main.js": "/frontend-practice/abstract-help-page-clone/static/js/main.d7e36605.js",
+    "main.css": "/frontend-practice/abstract-help-page-clone/static/css/main.ace0485a.css",
+    "main.js": "/frontend-practice/abstract-help-page-clone/static/js/main.38229151.js",
     "static/js/787.f7058ecb.chunk.js": "/frontend-practice/abstract-help-page-clone/static/js/787.f7058ecb.chunk.js",
     "static/media/abstract.png": "/frontend-practice/abstract-help-page-clone/static/media/abstract.fc28b1f37a8c2843c9fe.png",
     "static/media/billing.png": "/frontend-practice/abstract-help-page-clone/static/media/billing.e3c3aa301a61027ad048.png",
@@ -10,12 +10,12 @@
     "static/media/logo.svg": "/frontend-practice/abstract-help-page-clone/static/media/logo.9d6cc5d45935b0f344a248f235958634.svg",
     "index.html": "/frontend-practice/abstract-help-page-clone/index.html",
     "static/media/min-logo.svg": "/frontend-practice/abstract-help-page-clone/static/media/min-logo.0a99299e31de222f078c2b803b6f6b8c.svg",
-    "main.ec9db375.css.map": "/frontend-practice/abstract-help-page-clone/static/css/main.ec9db375.css.map",
-    "main.d7e36605.js.map": "/frontend-practice/abstract-help-page-clone/static/js/main.d7e36605.js.map",
+    "main.ace0485a.css.map": "/frontend-practice/abstract-help-page-clone/static/css/main.ace0485a.css.map",
+    "main.38229151.js.map": "/frontend-practice/abstract-help-page-clone/static/js/main.38229151.js.map",
     "787.f7058ecb.chunk.js.map": "/frontend-practice/abstract-help-page-clone/static/js/787.f7058ecb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec9db375.css",
-    "static/js/main.d7e36605.js"
+    "static/css/main.ace0485a.css",
+    "static/js/main.38229151.js"
   ]
 }
