@@ -3,6 +3,7 @@ import Logo from "../media/logo.svg";
 
 export default function Header() {
   const [isMoreOpen, setIsMoreOpen] = useState(false);
+  const [isLongMoreOpen, setIsLongMoreOpen] = useState(false);
   // const [scrollUp, setScrollUp] = useState(false);
   // const [lastTop, setLastTop] = useState(0);
   // const navbar = useRef();
@@ -22,7 +23,6 @@ export default function Header() {
   //   return window.removeEventListener("scroll", checkScroll);
   // }, [lastTop]);
 
-  const menu = ["Live", "Push", "Note", "Link", "Shop", "Packs", "Help"];
   const moreMenu = {
     "More on Ableton.com: ": [
       "Blog",
@@ -60,34 +60,60 @@ export default function Header() {
   };
 
   return (
-    <header className="py-5 px-10">
-      <nav>
+    <header className="relative">
+      <nav
+        className={`${
+          isLongMoreOpen ? "bg-blue text-white h-auto" : "max-xl:h-16"
+        } py-5 max-sm:px-5 px-10  overflow-hidden transition-all`}
+      >
         {/* Top visible nav in large screens */}
-        <div className="flex w-full mb-5">
-          <div>
+        <div className="flex w-full">
+          <div className="max-xl:absolute flex gap-10">
             <a href="/">
               <img src={Logo} alt="logo" className="w-[60px]"></img>
             </a>
-            <button className="xl:hidden"> Menu V</button>
+            <button
+              className="xl:hidden font-bold"
+              onClick={() => setIsLongMoreOpen((prev) => !prev)}
+            >
+              Menu {isLongMoreOpen ? "▴" : "▾"}
+            </button>
           </div>
-          <ul className="flex ml-10 gap-8 text-xl font-bold flex-1">
-            <div className="flex gap-8 flex-1">
-              {menu.map((m) => (
-                <li key={m}>
-                  <a href="/#">{m}</a>
-                </li>
-              ))}
-              <li className="text-orange">
+          <ul className="flex flex-col xl:flex-row max-xl:mt-12 xl:ml-10 gap-5 xl:gap-8 text-xl font-bold flex-1 ">
+            <div className="flex flex-col xl:flex-row gap-5 xl:gap-8 flex-1">
+              <li>
+                <a href="/#">Live</a>
+              </li>
+              <li>
+                <a href="/#">Push</a>
+              </li>
+              <li>
+                <a href="/#">Note</a>
+              </li>
+              <li>
+                <a href="/#">Link</a>
+              </li>
+              <li>
+                <a href="/#">Shop</a>
+              </li>
+              <li>
+                <a href="/#">Packs</a>
+              </li>
+              <li>
+                <a href="/#">Help</a>
+              </li>
+              {/* More button for large screens */}
+              <li className="text-orange max-xl:hidden">
                 <button onClick={() => setIsMoreOpen((prev) => !prev)}>
                   <span>More {isMoreOpen ? "-" : "+"}</span>
                 </button>
               </li>
             </div>
-            <div className="flex gap-8 items-center">
-              <li className="text-blue">
+            <div className="flex flex-col xl:flex-row gap-5 xl:gap-8 xl:items-center">
+              <li className="text-white xl:text-blue">
                 <a href="/#">Try Live for free</a>
               </li>
-              <li className="text-base">
+              <li className="text-sm xl:text-base">
                 <a href="/#">Log in or register</a>
               </li>
             </div>
@@ -96,12 +122,14 @@ export default function Header() {
         {/* More menu */}
         <section
           className={`${
-            isMoreOpen ? "pt-5 pb-16" : "h-0"
-          } overflow-hidden flex flex-col gap-10 transition-all`}
+            isMoreOpen ? "xl:pt-12 xl:pb-16" : "xl:h-0"
+          } overflow-hidden flex flex-col gap-6 xl:gap-10 transition-all`}
         >
           <div>
-            <h3 className="text-3xl font-bold mb-3">More on Ableton.com: </h3>
-            <ul className="flex gap-8 text-xl">
+            <h3 className="text-xl xl:text-3xl font-bold mb-3">
+              More on Ableton.com:{" "}
+            </h3>
+            <ul className="flex flex-col gap-3 xl:flex-row xl:gap-8 text-sm xl:text-xl max-xl:font-bold">
               {moreMenu["More on Ableton.com: "].map((i, index) => (
                 <li key={index}>
                   <a href="/#">{i}</a>
@@ -110,10 +138,12 @@ export default function Header() {
             </ul>
           </div>
           <div>
-            <h3 className="text-3xl font-bold mb-2">More from Ableton: </h3>
-            <ul className="flex text-xl gap-10">
+            <h3 className="text-xl xl:text-3xl font-bold mb-2">
+              More from Ableton:
+            </h3>
+            <ul className="flex text-sm xl:text-xl gap-3 xl:gap-10 overflow-x-scroll pb-3">
               {moreMenu["More from Ableton: "].map((i, index) => (
-                <li key={index}>
+                <li key={index} className="min-w-[190px]">
                   <a href="/#">
                     <h4 className="font-bold">{i.title}</h4>
                     <p>{i.content}</p>
@@ -126,7 +156,7 @@ export default function Header() {
       </nav>
       <nav
         // ref={navbar}
-        className="border-t-[1px] sticky top-0 bg-white bg-opacity-90"
+        className="border-t-[1px] sticky top-0 text-base max-sm:text-sm bg-white bg-opacity-90 max-sm:px-5 px-10"
       >
         <ul className="flex py-5 gap-8 font-bold">
           <li className="text-orange">
