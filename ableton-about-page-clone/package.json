@@ -1,6 +1,7 @@
 {
   "name": "ableton-about-page-clone",
   "version": "0.1.0",
+  "homepage": "https://mokshagnav.github.io/frontend-practice/ableton-about-page-clone",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
