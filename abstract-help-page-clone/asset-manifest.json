@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/frontend-practice/abstract-help-page-clone/static/css/main.ace0485a.css",
-    "main.js": "/frontend-practice/abstract-help-page-clone/static/js/main.38229151.js",
+    "main.js": "/frontend-practice/abstract-help-page-clone/static/js/main.709cda29.js",
     "static/js/787.f7058ecb.chunk.js": "/frontend-practice/abstract-help-page-clone/static/js/787.f7058ecb.chunk.js",
     "static/media/abstract.png": "/frontend-practice/abstract-help-page-clone/static/media/abstract.fc28b1f37a8c2843c9fe.png",
     "static/media/billing.png": "/frontend-practice/abstract-help-page-clone/static/media/billing.e3c3aa301a61027ad048.png",
@@ -11,11 +11,11 @@
     "index.html": "/frontend-practice/abstract-help-page-clone/index.html",
     "static/media/min-logo.svg": "/frontend-practice/abstract-help-page-clone/static/media/min-logo.0a99299e31de222f078c2b803b6f6b8c.svg",
     "main.ace0485a.css.map": "/frontend-practice/abstract-help-page-clone/static/css/main.ace0485a.css.map",
-    "main.38229151.js.map": "/frontend-practice/abstract-help-page-clone/static/js/main.38229151.js.map",
+    "main.709cda29.js.map": "/frontend-practice/abstract-help-page-clone/static/js/main.709cda29.js.map",
     "787.f7058ecb.chunk.js.map": "/frontend-practice/abstract-help-page-clone/static/js/787.f7058ecb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ace0485a.css",
-    "static/js/main.38229151.js"
+    "static/js/main.709cda29.js"
   ]
 }
