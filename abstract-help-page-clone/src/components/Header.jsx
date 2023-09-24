@@ -71,7 +71,7 @@ export default function Header() {
           } absolute top-0 left-0 px-4 py-4 w-full bg-white`}
         >
           <div className="relative w-full flex justify-center items-center gap-2">
-            <form>
+            <form className="w-full ">
               <input
                 type="search"
                 placeholder="Search"

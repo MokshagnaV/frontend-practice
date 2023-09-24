@@ -117,7 +117,10 @@ export default function Footer() {
               <option value="tel">Telugu</option>
               <option value="spa">Spanish</option>
             </select>
-            <select name="Location" className="font-bold py-1 pl-2 pr-12">
+            <select
+              name="Location"
+              className="w-full font-bold py-1 pl-2 pr-12"
+            >
               <option value="India">India</option>
               <option value="USA">USA</option>
               <option value="bq">Bonaire, Sint Eustatius and Saba</option>
@@ -155,7 +158,12 @@ export default function Footer() {
           <p>Made in Berlin</p>
           <p>
             Clone developed by{" "}
-            <a href="https://www.github.com/mokshagnav">Mokshagna Vemula</a>
+            <a
+              href="https://www.github.com/mokshagnav"
+              className="hover:underline"
+            >
+              Mokshagna Vemula
+            </a>
           </p>
         </div>
       </div>

@@ -33,6 +33,15 @@ export default function Footer() {
           <p>© Copyright 2023</p>
           <p>Abstract Studio Design, Inc.</p>
           <p>All rights reserved</p>
+          <p>
+            Clone developed by{" "}
+            <a
+              href="https://www.github.com/mokshagnav"
+              className="hover:underline"
+            >
+              Mokshagna Vemula
+            </a>
+          </p>
         </div>
       </div>
     </footer>
