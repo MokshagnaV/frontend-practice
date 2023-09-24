@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-practice/ableton-about-page-clone/static/css/main.57958d66.css",
-    "main.js": "/frontend-practice/ableton-about-page-clone/static/js/main.56f3536a.js",
+    "main.css": "/frontend-practice/ableton-about-page-clone/static/css/main.5728bef8.css",
+    "main.js": "/frontend-practice/ableton-about-page-clone/static/js/main.9c7ecf08.js",
     "static/js/787.63171497.chunk.js": "/frontend-practice/ableton-about-page-clone/static/js/787.63171497.chunk.js",
     "static/media/second.jpg": "/frontend-practice/ableton-about-page-clone/static/media/second.7d530072addf7c56fde1.jpg",
     "static/media/hero-bg.jpg": "/frontend-practice/ableton-about-page-clone/static/media/hero-bg.6c672dbb21a243e9e95d.jpg",
@@ -19,12 +19,12 @@
     "static/media/facebook.svg": "/frontend-practice/ableton-about-page-clone/static/media/facebook.8dfd0fb88a78b00acc67ee514aff316a.svg",
     "static/media/youtube.svg": "/frontend-practice/ableton-about-page-clone/static/media/youtube.91b694847185919bfe367a26de200b8c.svg",
     "static/media/logo.svg": "/frontend-practice/ableton-about-page-clone/static/media/logo.76be0bb6f8403ecadea69c313a95ae65.svg",
-    "main.57958d66.css.map": "/frontend-practice/ableton-about-page-clone/static/css/main.57958d66.css.map",
-    "main.56f3536a.js.map": "/frontend-practice/ableton-about-page-clone/static/js/main.56f3536a.js.map",
+    "main.5728bef8.css.map": "/frontend-practice/ableton-about-page-clone/static/css/main.5728bef8.css.map",
+    "main.9c7ecf08.js.map": "/frontend-practice/ableton-about-page-clone/static/js/main.9c7ecf08.js.map",
     "787.63171497.chunk.js.map": "/frontend-practice/ableton-about-page-clone/static/js/787.63171497.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57958d66.css",
-    "static/js/main.56f3536a.js"
+    "static/css/main.5728bef8.css",
+    "static/js/main.9c7ecf08.js"
   ]
 }
