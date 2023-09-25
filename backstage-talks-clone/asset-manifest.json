@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/frontend-practice/backstage-talks-clone/static/css/main.511449ed.css",
+    "main.js": "/frontend-practice/backstage-talks-clone/static/js/main.1a128ca0.js",
+    "static/js/787.84c3ef85.chunk.js": "/frontend-practice/backstage-talks-clone/static/js/787.84c3ef85.chunk.js",
+    "static/media/issue6.png": "/frontend-practice/backstage-talks-clone/static/media/issue6.167813af2c961292d28f.png",
+    "static/media/issue5.png": "/frontend-practice/backstage-talks-clone/static/media/issue5.1f520dcf7d7d4b079b28.png",
+    "static/media/issue4.png": "/frontend-practice/backstage-talks-clone/static/media/issue4.dfba35aaee1a292a53d0.png",
+    "static/media/issue3.png": "/frontend-practice/backstage-talks-clone/static/media/issue3.345528d1f2fdbad67e6b.png",
+    "static/media/issue7.png": "/frontend-practice/backstage-talks-clone/static/media/issue7.03a45637f0651bb2a29f.png",
+    "static/media/issue2.png": "/frontend-practice/backstage-talks-clone/static/media/issue2.7627d576b39e62852c94.png",
+    "static/media/issue1.png": "/frontend-practice/backstage-talks-clone/static/media/issue1.dc0dce4c09e077f05767.png",
+    "index.html": "/frontend-practice/backstage-talks-clone/index.html",
+    "main.511449ed.css.map": "/frontend-practice/backstage-talks-clone/static/css/main.511449ed.css.map",
+    "main.1a128ca0.js.map": "/frontend-practice/backstage-talks-clone/static/js/main.1a128ca0.js.map",
+    "787.84c3ef85.chunk.js.map": "/frontend-practice/backstage-talks-clone/static/js/787.84c3ef85.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.511449ed.css",
+    "static/js/main.1a128ca0.js"
+  ]
+}
