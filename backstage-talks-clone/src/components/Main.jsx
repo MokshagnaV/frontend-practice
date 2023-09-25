@@ -5,13 +5,13 @@ export default function Main() {
   const mainRef = useRef();
   const [activeSection, setActiveSection] = useState(0);
   const pageColors = [
-    "pink",
-    "white",
-    "cyan",
-    "orange",
-    "yellow",
-    "blue",
-    "red",
+    "bg-pink",
+    "bg-white",
+    "bg-cyan",
+    "bg-orange",
+    "bg-yellow",
+    "bg-blue",
+    "bg-red",
   ];
 
   const handleScroll = () => {
@@ -30,7 +30,7 @@ export default function Main() {
     <>
       <main
         ref={mainRef}
-        className={`snap-y snap-mandatory overflow-scroll h-[100vh] scroll-smooth bg-${pageColors[activeSection]}`}
+        className={`snap-y snap-mandatory overflow-scroll h-[100vh] scroll-smooth ${pageColors[activeSection]}`}
         onScroll={handleScroll}
       >
         <header className="md:absolute top-5 left-4 snap-start max-md:pt-5 max-md:pl-4">
@@ -89,7 +89,7 @@ export default function Main() {
         </div>
         <a
           href="mailto:info@backstagetalks.com"
-          className="hover:underline block text-center max-md:pb-10 md:absolute top-5 right-4 text-lg font-bold"
+          className="hover:underline block text-center max-md:pb-20 md:absolute top-5 right-4 text-lg font-bold"
         >
           info@backstagetalks.com
         </a>
