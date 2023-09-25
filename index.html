@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Style the navigation bar */
+    nav {
+      position: fixed;
+      top: 0;
+    }
+
+    section {
+      height: 100vh;
+    }
+
+    /* Style the highlighted link */
+    #navbar a.active {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul id="navbar">
+      <li><a href="#first">First</a></li>
+      <li><a href="#second">Second</a></li>
+      <li><a href="#third">Third</a></li>
+      <li><a href="#fourth">Fourth</a></li>
+      <li><a href="#fifth">Fifth</a></li>
+    </ul>
+  </nav>
+
+  <section id="first">First Section</section>
+  <section id="second">Second Section</section>
+  <section id="third">Third Section</section>
+  <section id="fourth">Fourth Section</section>
+  <section id="fifth">Fifth Section</section>
+
+
+  <script>// JavaScript for scrollspy
+
+    // Get all the section elements
+    const sections = document.querySelectorAll('section');
+    // Get all the navigation links
+    const navLinks = document.querySelectorAll('#navbar a');
+
+    // Function to add the "active" class to the link that corresponds to the section in view
+    function changeLinkState() {
+      let index = sections.length;
+
+      while (--index && window.scrollY + 50 < sections[index].offsetTop) { }
+
+      navLinks.forEach((link) => link.classList.remove('active'));
+      navLinks[index].classList.add('active');
+    }
+
+    // Listen for scroll events
+    window.addEventListener('scroll', changeLinkState);
+  </script>
+</body>
+
+</html>
