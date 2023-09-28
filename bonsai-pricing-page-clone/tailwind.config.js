@@ -13,7 +13,7 @@ module.exports = {
         more: "0px 0px 32px 7px #00000024",
       },
       screens: {
-        xl: "950px",
+        xl: "1010px",
       },
     },
   },
