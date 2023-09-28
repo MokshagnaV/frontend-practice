@@ -9,6 +9,12 @@ module.exports = {
         white: "#fff",
         yellow: "#f8db62",
       },
+      boxShadow: {
+        more: "0px 0px 32px 7px #00000024",
+      },
+      screens: {
+        xl: "950px",
+      },
     },
   },
   plugins: [],

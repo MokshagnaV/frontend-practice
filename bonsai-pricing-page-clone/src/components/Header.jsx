@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../logo.svg";
+import menu from "../menu.svg";
+import close from "../close.svg";
 import { productData } from "../data";
 import { templatesData } from "../data";
 import placeholderIcon from "./placeholderIcon.svg";
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <div className="bg-white">
+    <div className="xl:bg-white px-10">
       <div className="max-container px-4 py-6 flex justify-between items-center">
         <a href="/">
           <img src={Logo} width={150} alt="logo" />
         </a>
-        <nav className="flex items-center">
+        <nav className="hidden xl:flex items-center">
           <ul className="flex mr-9 font-light text-black">
             <li className="group mr-10 opacity-70 hover:opacity-100">
               <div className="relative group/drop">
@@ -19,8 +23,8 @@ export default function Header() {
                   Product <span className="group-hover:rotate-180">⌄</span>
                 </a>
                 <div
-                  className="group-hover/drop:opacity-100 opacity-0 absolute w-[352px]
-                 -left-40 top-full bg-white shadow-2xl transition-opacity"
+                  className="group-hover/drop:opacity-100 group-hover/drop:block hover:block hidden opacity-0 absolute w-[352px]
+                 -left-40 top-full bg-white shadow-more transition-opacity"
                 >
                   {productData.map((product, index) => {
                     const { children } = product;
@@ -80,9 +84,39 @@ export default function Header() {
                   Templates <span className="group-hover:rotate-180 ">⌄</span>
                 </a>
                 <div
-                  className="group-hover/drop:opacity-100 opacity-0 absolute bg-white 
-                top-full shadow-2xl transition-opacity"
-                ></div>
+                  className="group-hover/drop:opacity-100 group-hover/drop:block hidden opacity-0 absolute bg-white 
+                  py-2 top-full -left-[200%] shadow-more transition-opacity"
+                >
+                  {templatesData.map((template) => {
+                    const { title, samples } = template;
+                    return (
+                      <div className=" group/inner" key={title}>
+                        <div className="relative cursor-pointer py-5 px-11 flex hover:bg-slate-50 w-80">
+                          <img src={placeholderIcon} alt="placeholder" />
+                          <h3 className="ml-2 w-fit">{title}</h3>
+                          <span className="group-hover/inner:block hidden absolute top-[18%] right-4 -rotate-90 text-4xl">
+                            ⌄
+                          </span>
+                        </div>
+                        <div
+                          className="group-hover/inner:opacity-100 group-hover/inner:z-20 opacity-0 bg-white
+                         absolute left-full top-0 w-[475px] pt-5 pb-11 px-11"
+                        >
+                          <h4 className="mb-6">Featured {title}</h4>
+                          {samples.map((s) => (
+                            <p
+                              key={s}
+                              className="py-7 px-8 mb-2 border-[1px] hover:scale-105 rounded shadow-sm hover:shadow-lg
+                              cursor-pointer"
+                            >
+                              {s}
+                            </p>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </li>
             <li className="mr-10 opacity-70 hover:opacity-100">
@@ -105,6 +139,14 @@ export default function Header() {
             >
               START FREE
             </a>
+          </div>
+        </nav>
+        <nav className="xl:hidden">
+          <div
+            className="w-10 max-sm:w-8 cursor-pointer"
+            onClick={() => setMenuOpen((prev) => !prev)}
+          >
+            <img src={menuOpen ? close : menu} alt="menu" />
           </div>
         </nav>
       </div>
