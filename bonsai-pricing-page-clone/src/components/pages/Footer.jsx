@@ -1,11 +1,12 @@
 import React from "react";
 import { footerData } from "../../data";
+import FooterInteractiveItem from "../common/FooterInteractiveItem";
 
 export default function Footer() {
-  const { PRODUCT, Pricing, Templates } = footerData;
+  const { PRODUCT, Pricing, Templates, BONSAI, Comparisons } = footerData;
   return (
     <footer>
-      <div className="max-container px-[5%] xl:px-[16%] py-24 flex flex-col sm:flex-row ">
+      <div className="max-container px-[5%] xl:px-[16%] py-24 flex flex-col justify-between sm:flex-row ">
         <div className="w-[30%]">
           {/* Products */}
           <div>
@@ -53,19 +54,35 @@ export default function Footer() {
           </div>
           {/* Templates */}
           <div>
-            <h5 className="mb-10">Templates</h5>
-            <div className="flex flex-col gap-2 mb-6">
+            <h5 className="mb-3">Templates</h5>
+            <div className="flex flex-col mb-6 font-light">
               {Templates.map((p, index) => (
-                <div key={index}>
-                  <p>
-                    {p.title} <span className="text-lg">⌄</span>
-                  </p>
-                </div>
+                <FooterInteractiveItem key={index} item={p} />
               ))}
             </div>
           </div>
         </div>
-        <div className="w-[30%]"></div>
+        <div className="w-[30%]">
+          {/* Bonsai */}
+          <div>
+            <h5 className="mb-10">BONSAI</h5>
+            <div className="flex flex-col gap-2 mb-6">
+              {BONSAI.map((p) => (
+                <a
+                  href="/#"
+                  key={p}
+                  className="text-slate-500 hover:text-black font-light"
+                >
+                  {p}
+                </a>
+              ))}
+            </div>
+          </div>
+          {/* comparisons */}
+          <FooterInteractiveItem
+            item={{ title: "Comparisons", children: Comparisons }}
+          />
+        </div>
       </div>
     </footer>
   );
