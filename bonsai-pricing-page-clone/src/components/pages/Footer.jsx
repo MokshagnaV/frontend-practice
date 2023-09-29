@@ -84,6 +84,15 @@ export default function Footer() {
           />
         </div>
       </div>
+      <p className="py-5 text-center font-normal">
+        Clone developed by{" "}
+        <a
+          href="https://www.github.com/mokshagnav"
+          className="hover:underline font-bold"
+        >
+          Mokshagna Vemula
+        </a>
+      </p>
     </footer>
   );
 }
