@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/frontend-practice/bonsai-pricing-page-clone/static/css/main.59fec0d1.css",
+    "main.js": "/frontend-practice/bonsai-pricing-page-clone/static/js/main.bb3fac23.js",
+    "static/js/787.6081a8ad.chunk.js": "/frontend-practice/bonsai-pricing-page-clone/static/js/787.6081a8ad.chunk.js",
+    "static/media/logo.svg": "/frontend-practice/bonsai-pricing-page-clone/static/media/logo.f1ee0955f100c27c88768fb6d476a5c1.svg",
+    "static/media/discount.svg": "/frontend-practice/bonsai-pricing-page-clone/static/media/discount.fe6930370c4b78c987469f6b4f276679.svg",
+    "static/media/small-logo.svg": "/frontend-practice/bonsai-pricing-page-clone/static/media/small-logo.bbc891d1ea869a9735748da980caf3f1.svg",
+    "static/media/placeholderIcon.svg": "/frontend-practice/bonsai-pricing-page-clone/static/media/placeholderIcon.fb82e36e7646178d2d20686c1604f895.svg",
+    "static/media/tick.svg": "/frontend-practice/bonsai-pricing-page-clone/static/media/tick.b7660d5d27ee5a44b63b77a52bd17a31.svg",
+    "index.html": "/frontend-practice/bonsai-pricing-page-clone/index.html",
+    "static/media/close.svg": "/frontend-practice/bonsai-pricing-page-clone/static/media/close.12c15055e9faf44c922f9fd7375bd344.svg",
+    "static/media/menu.svg": "/frontend-practice/bonsai-pricing-page-clone/static/media/menu.fbe8e38d64dd5aa8e14e3777c3f8177f.svg",
+    "main.59fec0d1.css.map": "/frontend-practice/bonsai-pricing-page-clone/static/css/main.59fec0d1.css.map",
+    "main.bb3fac23.js.map": "/frontend-practice/bonsai-pricing-page-clone/static/js/main.bb3fac23.js.map",
+    "787.6081a8ad.chunk.js.map": "/frontend-practice/bonsai-pricing-page-clone/static/js/787.6081a8ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59fec0d1.css",
+    "static/js/main.bb3fac23.js"
+  ]
+}
