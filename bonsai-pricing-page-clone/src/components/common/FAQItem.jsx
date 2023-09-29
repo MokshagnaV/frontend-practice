@@ -21,7 +21,7 @@ export default function FAQItem({ data }) {
       </div>
       <div
         className={`${
-          isDropdownOpen ? "h-full" : "h-0"
+          isDropdownOpen ? "h-auto" : "h-0"
         } overflow-hidden transition-all`}
       >
         <p>{data.answer}</p>

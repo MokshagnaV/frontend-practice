@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="max-container px-[5%] xl:px-[16%] py-24 flex flex-col justify-between sm:flex-row ">
-        <div className="w-[30%]">
+        <div className="xl:w-[30%] max-xl:mb-10">
           {/* Products */}
           <div>
             <h5 className="mb-10">PRODUCT</h5>
@@ -34,7 +34,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="w-[30%]">
+        <div className="xl:w-[30%] max-xl:mb-10">
           {/* Free resources */}
           <div>
             <h5 className="mb-10">FREE RESOURCES</h5>
@@ -62,7 +62,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="w-[30%]">
+        <div className="xl:w-[30%] max-xl:mb-10">
           {/* Bonsai */}
           <div>
             <h5 className="mb-10">BONSAI</h5>

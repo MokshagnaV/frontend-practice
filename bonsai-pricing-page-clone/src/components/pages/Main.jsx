@@ -93,13 +93,15 @@ export default function Main() {
         </div>
       </div>
       {/* slogan */}
-      <div className="max-container py-10">
-        <div className=" flex justify-between items-center py-16 px-12 bg-blue-50 rounded-lg max-w-[58rem] m-auto">
-          <div className=" w-[70%]">
-            <p className="text-[2.75rem]">
+      <div className="max-container mx-5 py-10">
+        <div className=" flex flex-col justify-between items-center py-16 px-12 bg-blue-50 rounded-lg max-w-[58rem] m-auto">
+          <div className=" w-[70%] max-sm:text-center text-grey mb-5">
+            <p className="text-4xl sm:text-[2.75rem] ">
               It's <span className="text-green">your</span> business.
             </p>
-            <p className="text-[2.75rem]">We're here to help it grow.</p>
+            <p className="text-4xl sm:text-[2.75rem]">
+              We're here to help it grow.
+            </p>
           </div>
           <button className="bg-green hover:bg-opacity-80 tracking-wider px-6 pt-[15px] pb-[13px] text-white text-sm rounded">
             START FREE

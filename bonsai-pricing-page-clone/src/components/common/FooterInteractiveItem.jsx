@@ -5,19 +5,23 @@ export default function FooterInteractiveItem({ item }) {
   return (
     <div className="font-light">
       <button
-        className=" text-slate-500 hover:text-black mb-1"
+        className=" text-slate-500 hover:text-black pb-2"
         onClick={() => setIsOpen((prev) => !prev)}
       >
-        {item.title} <span className="text-3xl">⌄</span>
+        {item.title} {item.children && <span className="text-xl">⌄</span>}
       </button>
       {item.children && (
         <div
           className={`${
-            isOpen ? "h-full" : "h-0"
-          } overflow-hidden flex flex-col pl-2 gap-2`}
+            isOpen ? `h-auto` : "h-0"
+          } transition-all overflow-hidden pl-2`}
         >
           {item.children.map((i) => (
-            <a href="/#" key={i} className=" text-slate-500 hover:text-black ">
+            <a
+              href="/#"
+              key={i}
+              className="block mb-2 text-slate-500 hover:text-black "
+            >
               {i}
             </a>
           ))}
