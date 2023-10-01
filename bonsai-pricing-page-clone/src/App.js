@@ -5,7 +5,7 @@ import Footer from "./components/pages/Footer";
 
 export default function App() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="relative overflow-x-hidden">
       <Header />
       <Main />
       <Footer />

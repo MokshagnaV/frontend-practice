@@ -10,10 +10,10 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="bg-white px-10 sticky top-0 z-30">
-      <header>
+    <header>
+      <div className="bg-white px-10 w-full fixed top-0 z-30">
         <div className="max-container px-4 py-6 flex justify-between items-center">
-          <a href="/">
+          <a href="/frontend-practice/bonsai-pricing-page-clone">
             <img src={Logo} width={150} alt="logo" />
           </a>
           <nav
@@ -22,7 +22,7 @@ export default function Header() {
             } max-xl:absolute top-0 left-0 max-xl:bg-white  max-xl:pt-20 max-xl:px-8
           max-xl:h-screen max-xl:w-screen flex max-xl:flex-col transition-all items-center`}
           >
-            <a href="/">
+            <a href="/frontend-practice/bonsai-pricing-page-clone">
               <img
                 className="xl:hidden absolute top-6 left-14"
                 src={smallLogo}
@@ -37,21 +37,25 @@ export default function Header() {
                 <Template />
               </li>
               <li className="xl:mr-10 opacity-70 hover:opacity-100 max-xl:py-4 max-xl:border-b-[1px] max-xl:border-grey">
-                <a href="/#">Pricing</a>
+                <a href="/frontend-practice/bonsai-pricing-page-clone/#">
+                  Pricing
+                </a>
               </li>
               <li className="xl:mr-10 opacity-70 hover:opacity-100 max-xl:py-4 max-xl:border-b-[1px] max-xl:border-grey">
-                <a href="/#">Reviews</a>
+                <a href="/frontend-practice/bonsai-pricing-page-clone/#">
+                  Reviews
+                </a>
               </li>
             </ul>
             <div className="text-sm flex max-xl:flex-col max-xl:w-full max-xl:gap-4 text-center max-xl:mt-4 font-bold text-white">
               <a
-                href="/#"
+                href="/frontend-practice/bonsai-pricing-page-clone/#"
                 className="xl:ml-4 pt-3 pb-2 px-[22px] rounded border-green border-[1px] hover:bg-green text-green hover:text-white"
               >
                 LOG IN
               </a>
               <a
-                href="/#"
+                href="/frontend-practice/bonsai-pricing-page-clone/#"
                 className="xl:ml-4 pt-3 pb-2 px-[27px] rounded bg-green bg-opacity-95 hover:bg-opacity-100"
               >
                 START FREE
@@ -67,7 +71,7 @@ export default function Header() {
             </div>
           </nav>
         </div>
-      </header>
-    </div>
+      </div>
+    </header>
   );
 }

@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="flex flex-col gap-2 mb-6">
               {PRODUCT.map((p) => (
                 <a
-                  href="/#"
+                  href="/frontend-practice/bonsai-pricing-page-clone/#"
                   key={p}
                   className="text-slate-500 hover:text-black font-light"
                 >
@@ -27,7 +27,7 @@ export default function Footer() {
           <div>
             <h5 className="text-green font-light mb-2">Pricing</h5>
             <a
-              href="/#"
+              href="/frontend-practice/bonsai-pricing-page-clone/#"
               className=" text-slate-500 hover:text-black font-light"
             >
               {Pricing}
@@ -41,7 +41,7 @@ export default function Footer() {
             <div className="flex flex-col gap-2 mb-6">
               {footerData["FREE RESOURCES"].map((p, index) => (
                 <a
-                  href="/#"
+                  href="/frontend-practice/bonsai-pricing-page-clone/#"
                   key={index}
                   className={`text-slate-500 hover:text-black font-light ${
                     index === 3 && " mb-6"
@@ -69,7 +69,7 @@ export default function Footer() {
             <div className="flex flex-col gap-2 mb-6">
               {BONSAI.map((p) => (
                 <a
-                  href="/#"
+                  href="/frontend-practice/bonsai-pricing-page-clone/#"
                   key={p}
                   className="text-slate-500 hover:text-black font-light"
                 >

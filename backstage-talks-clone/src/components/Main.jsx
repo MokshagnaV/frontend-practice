@@ -52,7 +52,7 @@ export default function Main() {
               />
               <p>{`Issue#${i}`}</p>
               <a
-                href="/#"
+                href="/frontend-practice/backstage-talks-clone/#"
                 className={`hover:underline ${i !== 6 && "text-white"}`}
               >
                 BUY HERE
@@ -60,7 +60,7 @@ export default function Main() {
               <p>
                 or in{" "}
                 <a
-                  href="/#"
+                  href="/frontend-practice/backstage-talks-clone/#"
                   className={`hover:underline ${i !== 6 && "text-white"}`}
                 >
                   selected stores
@@ -97,7 +97,9 @@ export default function Main() {
           <ul className="font-normal">
             {issues.map((i) => (
               <li className={7 - i === activeSection && "font-bold"}>
-                <a href={`/#issue${i}`}>{`Issue ${i}`}</a>
+                <a
+                  href={`/frontend-practice/backstage-talks-clone/#issue${i}`}
+                >{`Issue ${i}`}</a>
               </li>
             ))}
           </ul>

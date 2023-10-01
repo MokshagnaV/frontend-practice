@@ -5,7 +5,10 @@ import placeholderIcon from "./placeholderIcon.svg";
 export default function Product() {
   return (
     <div className="relative group/drop">
-      <a href="/#" className="flex items-center gap-2 ">
+      <a
+        href="/frontend-practice/bonsai-pricing-page-clone/#"
+        className="flex items-center gap-2 "
+      >
         Product <span className="xl:group-hover:rotate-180">⌄</span>
       </a>
       <div

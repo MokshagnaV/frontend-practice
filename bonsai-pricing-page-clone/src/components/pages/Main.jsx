@@ -12,7 +12,7 @@ export default function Main() {
   };
 
   return (
-    <main>
+    <main className="mt-20">
       <section className="relative xl:pt-28 xl:pb-10 px-10 text-grey">
         <div className="absolute -top-[88%] -r-[23%] rotate-[-23deg] w-[90%] h-[120%] bg-blue-50 -z-10" />
         {/* Plan Switch */}
