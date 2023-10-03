@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/frontend-practice/lobe-tour-page-clone/static/css/main.fb8012db.css",
+    "main.js": "/frontend-practice/lobe-tour-page-clone/static/js/main.f7a5215c.js",
+    "static/js/787.40f71ef3.chunk.js": "/frontend-practice/lobe-tour-page-clone/static/js/787.40f71ef3.chunk.js",
+    "static/media/thumbnail.jpg": "/frontend-practice/lobe-tour-page-clone/static/media/thumbnail.d4f7adfaee935fdb3390.jpg",
+    "static/media/logo.png": "/frontend-practice/lobe-tour-page-clone/static/media/logo.11554a771ed8858f3227.png",
+    "static/media/reddit.svg": "/frontend-practice/lobe-tour-page-clone/static/media/reddit.1111c6d7151c07187564b1a509d951df.svg",
+    "static/media/twitter.svg": "/frontend-practice/lobe-tour-page-clone/static/media/twitter.32e612602d39655e3b5d11cae3fb3c80.svg",
+    "static/media/youtube.svg": "/frontend-practice/lobe-tour-page-clone/static/media/youtube.5bc6cc1d4463bcbe4d1669a70739247b.svg",
+    "index.html": "/frontend-practice/lobe-tour-page-clone/index.html",
+    "main.fb8012db.css.map": "/frontend-practice/lobe-tour-page-clone/static/css/main.fb8012db.css.map",
+    "main.f7a5215c.js.map": "/frontend-practice/lobe-tour-page-clone/static/js/main.f7a5215c.js.map",
+    "787.40f71ef3.chunk.js.map": "/frontend-practice/lobe-tour-page-clone/static/js/787.40f71ef3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb8012db.css",
+    "static/js/main.f7a5215c.js"
+  ]
+}
