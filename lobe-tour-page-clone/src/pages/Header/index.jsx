@@ -11,7 +11,7 @@ export default function Header() {
       <div
         className={`${
           isOpen ? "max-md:h-[500px] max-md:pt-20" : "max-md:h-20"
-        } overflow-hidden transition-all max-container flex max-md:flex-col justify-between items-center px-5 py-3`}
+        } overflow-hidden transition-all duration-500 max-container flex max-md:flex-col justify-between items-center px-5 xl:px-14 py-3`}
       >
         <a
           href="/frontend-practice/lobe-tour-page-clone"
@@ -20,17 +20,17 @@ export default function Header() {
           <img src={Logo} className="h-14" alt="logo" />
         </a>
         <button className="z-20 absolute top-[18px] right-5 md:hidden">
-          <MenuIcon setStatus={setIsOpen} />
+          <MenuIcon status={isOpen} setStatus={setIsOpen} />
         </button>
         <nav
           className={`${
             isOpen ? "max-md:opacity-100" : "max-md:opacity-0"
-          } max-md:w-full`}
+          } max-md:w-full translate-all duration-500`}
         >
           <ul
             className={`flex max-md:flex-col items-center gap-10 text-lg font-[500] text-grey max-md:pt-5 transition-all`}
           >
-            <li className="w-full hover:scale-105">
+            <li className="w-full hover:scale-105 transition-all duration-300">
               <a
                 href="/frontend-practice/lobe-tour-page-clone/#"
                 className="hover:text-black"
@@ -38,7 +38,7 @@ export default function Header() {
                 Overview
               </a>
             </li>
-            <li className="w-full hover:scale-105">
+            <li className="w-full hover:scale-105 transition-all duration-300">
               <a
                 href="/frontend-practice/lobe-tour-page-clone/#"
                 className="hover:text-black"
@@ -46,7 +46,7 @@ export default function Header() {
                 Examples
               </a>
             </li>
-            <li className="w-full hover:scale-105">
+            <li className="w-full hover:scale-105 transition-all duration-300">
               <a
                 href="/frontend-practice/lobe-tour-page-clone/#"
                 className="hover:text-black text-black"
@@ -54,7 +54,7 @@ export default function Header() {
                 Tour
               </a>
             </li>
-            <li className="w-full hover:scale-105">
+            <li className="w-full hover:scale-105 transition-all duration-300">
               <a
                 href="/frontend-practice/lobe-tour-page-clone/#"
                 className="hover:text-black"
@@ -62,7 +62,7 @@ export default function Header() {
                 Blog
               </a>
             </li>
-            <li className="w-full hover:scale-105">
+            <li className="w-full hover:scale-105 transition-all duration-300">
               <a
                 href="/frontend-practice/lobe-tour-page-clone/#"
                 className="hover:text-black"
