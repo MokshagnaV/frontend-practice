@@ -6,7 +6,7 @@ import redditIcon from "./reddit.svg";
 
 export default function Footer() {
   return (
-    <footer className="max-container">
+    <footer className="max-container overflow-hidden">
       <div className="pb-4 px-4 sm:pb-14 sm:px-20 xl:px-8 xl:pb-8 flex justify-center text-black">
         <div
           className="py-14 px-6 max-w-4xl xl:max-w-5xl sm:px-20 border-t border-black border-opacity-20 flex-1
