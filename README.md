@@ -8,4 +8,6 @@
 
 1. [Bonsai Pricing Page](https://mokshagnav.github.io/frontend-practice/bonsai-pricing-page-clone)
 
+1. [Lobe Tour Page](https://mokshagnav.github.io/frontend-practice/lobe-tour-page-clone/)
+
 **Note:** Here all pages are clones, not my know designs. Inspired and followed [Frontend Practice](https://www.frontendpractice.com)
