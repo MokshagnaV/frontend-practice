@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontend-practice/oh.studio-page-clone/static/css/main.d867b143.css",
+    "main.js": "/frontend-practice/oh.studio-page-clone/static/js/main.1bc6697d.js",
+    "static/js/787.3b4dbfbb.chunk.js": "/frontend-practice/oh.studio-page-clone/static/js/787.3b4dbfbb.chunk.js",
+    "index.html": "/frontend-practice/oh.studio-page-clone/index.html",
+    "main.d867b143.css.map": "/frontend-practice/oh.studio-page-clone/static/css/main.d867b143.css.map",
+    "main.1bc6697d.js.map": "/frontend-practice/oh.studio-page-clone/static/js/main.1bc6697d.js.map",
+    "787.3b4dbfbb.chunk.js.map": "/frontend-practice/oh.studio-page-clone/static/js/787.3b4dbfbb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d867b143.css",
+    "static/js/main.1bc6697d.js"
+  ]
+}
