@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@layer components {
+  .not-in-view {
+    transform: translateY(20px);
+    opacity: 0;
+    transition-property: transform, opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+  }
+  .in-view {
+    @apply translate-y-0 opacity-100;
+  }
+}

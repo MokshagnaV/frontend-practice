@@ -6,7 +6,7 @@ import Main from "./components/Main";
 
 export default function App() {
   return (
-    <div className="max-w-[1440px]">
+    <div className="max-w-[1440px] m-auto">
       <HashRouter>
         <Header />
         <Main />

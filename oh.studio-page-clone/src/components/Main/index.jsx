@@ -6,7 +6,7 @@ import Contact from "./Contact";
 
 export default function Main() {
   return (
-    <main className="mt-32">
+    <main className="mt-[112px]">
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/profile" Component={Profile} />

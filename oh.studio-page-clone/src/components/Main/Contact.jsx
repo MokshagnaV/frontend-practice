@@ -1,5 +1,6 @@
 import React from "react";
+import GetInTouch from "./common/GetInTouch";
 
 export default function Contact() {
-  return <div>Contact</div>;
+  return <GetInTouch big={true} />;
 }
