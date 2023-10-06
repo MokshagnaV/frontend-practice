@@ -10,4 +10,6 @@
 
 1. [Lobe Tour Page](https://mokshagnav.github.io/frontend-practice/lobe-tour-page-clone/)
 
+1. [Oh.Studio page](https://mokshagnav.github.io/frontend-practice/oh.studio-page-clone)
+
 **Note:** Here all pages are clones, not my know designs. Inspired and followed [Frontend Practice](https://www.frontendpractice.com)
