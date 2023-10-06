@@ -7,6 +7,9 @@ import Contact from "./Contact";
 export default function Main() {
   return (
     <main className="mt-[112px]">
+      <span className="absolute top-2 left-[43vw]">
+        *Note: Not a original page*
+      </span>
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/profile" Component={Profile} />

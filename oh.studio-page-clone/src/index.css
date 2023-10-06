@@ -8,7 +8,7 @@
     opacity: 0;
     transition-property: transform, opacity;
     transition-duration: 0.5s;
-    transition-timing-function: linear;
+    transition-timing-function: ease;
   }
   .in-view {
     @apply translate-y-0 opacity-100;

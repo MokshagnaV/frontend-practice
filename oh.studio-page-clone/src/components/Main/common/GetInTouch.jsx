@@ -11,7 +11,6 @@ export default function GetInTouch({ big }) {
           if (entry.isIntersecting) {
             const children = entry.target.childNodes;
             children.forEach((child) => {
-              console.log(child);
               child.classList.add("in-view");
             });
             observer.unobserve(entry.target);
