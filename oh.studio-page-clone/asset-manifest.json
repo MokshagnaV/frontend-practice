@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/frontend-practice/oh.studio-page-clone/static/css/main.d867b143.css",
-    "main.js": "/frontend-practice/oh.studio-page-clone/static/js/main.1bc6697d.js",
+    "main.css": "/frontend-practice/oh.studio-page-clone/static/css/main.6aeaa20a.css",
+    "main.js": "/frontend-practice/oh.studio-page-clone/static/js/main.3ae3a1de.js",
     "static/js/787.3b4dbfbb.chunk.js": "/frontend-practice/oh.studio-page-clone/static/js/787.3b4dbfbb.chunk.js",
+    "static/media/spinIcon.svg": "/frontend-practice/oh.studio-page-clone/static/media/spinIcon.b384e4490ac8044a2890e58431247976.svg",
     "index.html": "/frontend-practice/oh.studio-page-clone/index.html",
-    "main.d867b143.css.map": "/frontend-practice/oh.studio-page-clone/static/css/main.d867b143.css.map",
-    "main.1bc6697d.js.map": "/frontend-practice/oh.studio-page-clone/static/js/main.1bc6697d.js.map",
+    "static/media/arrow.svg": "/frontend-practice/oh.studio-page-clone/static/media/arrow.a478c3397f6c72e9224f338ac9662854.svg",
+    "main.6aeaa20a.css.map": "/frontend-practice/oh.studio-page-clone/static/css/main.6aeaa20a.css.map",
+    "main.3ae3a1de.js.map": "/frontend-practice/oh.studio-page-clone/static/js/main.3ae3a1de.js.map",
     "787.3b4dbfbb.chunk.js.map": "/frontend-practice/oh.studio-page-clone/static/js/787.3b4dbfbb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d867b143.css",
-    "static/js/main.1bc6697d.js"
+    "static/css/main.6aeaa20a.css",
+    "static/js/main.3ae3a1de.js"
   ]
 }
