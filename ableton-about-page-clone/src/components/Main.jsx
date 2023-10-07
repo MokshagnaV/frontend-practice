@@ -16,7 +16,7 @@ export default function Main() {
   return (
     <main>
       {/* Hero section */}
-      <section className="max-w-7xl flex justify-center items-center">
+      <section className="max-w-7xl flex justify-center items-center m-auto">
         <div
           className="flex bg-cover bg-center h-[80vh] w-[90vw] sm:w-[85vw] justify-center items-center"
           style={{ backgroundImage: `url(${Hero})` }}

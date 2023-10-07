@@ -1,27 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Logo from "../media/logo.svg";
 
 export default function Header() {
   const [isMoreOpen, setIsMoreOpen] = useState(false);
   const [isLongMoreOpen, setIsLongMoreOpen] = useState(false);
-  // const [scrollUp, setScrollUp] = useState(false);
-  // const [lastTop, setLastTop] = useState(0);
-  // const navbar = useRef();
+  const [scrollUp, setScrollUp] = useState(false);
+  const [lastTop, setLastTop] = useState(0);
+  const navbar = useRef();
 
-  // useEffect(() => {
-  //   const checkScroll = () => {
-  //     const currTop = window.scrollY || document.documentElement.scrollTop;
-  //     if (lastTop < currTop) {
-  //       setLastTop(currTop);
-  //       setScrollUp(true);
-  //     }else{
-  //       setScrollUp(false);
-  //     }
-  //   };
-  //   window.addEventListener("scroll", checkScroll);
+  useEffect(() => {
+    const checkScroll = () => {
+      const currTop = window.scrollY || document.documentElement.scrollTop;
+      if (lastTop > currTop) {
+        setLastTop(currTop);
+        setScrollUp(true);
+      } else {
+        setLastTop(currTop);
+        setScrollUp(false);
+      }
+    };
+    window.addEventListener("scroll", () => checkScroll());
 
-  //   return window.removeEventListener("scroll", checkScroll);
-  // }, [lastTop]);
+    return window.removeEventListener("scroll", () => checkScroll());
+  }, [lastTop, scrollUp]);
 
   const moreMenu = {
     "More on Ableton.com: ": [
@@ -61,11 +62,11 @@ export default function Header() {
 
   return (
     <>
-      <header className="">
+      <header>
         <nav
           className={`${
-            isLongMoreOpen ? "bg-blue text-white h-auto" : "max-xl:h-16"
-          } relative py-5 max-sm:px-5 px-10  overflow-hidden transition-all`}
+            isLongMoreOpen ? "bg-blue text-white h-[900px]" : "max-xl:h-16"
+          } relative py-5 max-sm:px-5 px-10 overflow-hidden transition-all`}
         >
           {/* Top visible nav in large screens */}
           <div className="flex w-full">
@@ -157,8 +158,10 @@ export default function Header() {
         </nav>
       </header>
       <nav
-        // ref={navbar}
-        className="z-20 border-t-[1px] sticky top-0 text-base max-sm:text-sm bg-white bg-opacity-90 max-sm:px-5 px-10"
+        ref={navbar}
+        className={`z-20 border-t-[1px] ${scrollUp ? "translate-y-0" : ""} ${
+          lastTop > 900 ? "-translate-y-20" : ""
+        } transition-transform sticky top-0 text-base max-sm:text-sm bg-white bg-opacity-90 max-sm:px-5 px-10`}
       >
         <ul className="flex py-5 gap-8 font-bold">
           <li className="text-orange">
